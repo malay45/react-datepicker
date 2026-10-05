@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo 'No install needed: static site'",
+  "buildCommand": "rm -rf dist && mkdir -p dist/classic && cp index.html lab.css lab-data.js lab-engine.js lab-app.js dist/ && cp classic/index.html classic/app.js classic/engine.js classic/scenario.js classic/styles.css dist/classic/",
+  "outputDirectory": "dist"
+}

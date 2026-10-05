@@ -1,7 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "installCommand": "echo 'No install needed: static site'",
-  "buildCommand": "echo 'No build needed: static site'",
-  "outputDirectory": "sustainable-futures-lab"
-}

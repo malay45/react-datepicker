@@ -50,6 +50,10 @@ To produce a single self-contained HTML file (inline CSS and JS) for hosts that 
 node build.js                 # writes dist/sustainable-futures-lab.html
 ```
 
+## Deploy to Vercel
+
+In the Vercel project settings, set **Root Directory** to `sustainable-futures-lab`. The `vercel.json` in this folder skips the install, copies the files that should be served into `dist/`, and serves that folder. The game is at `/` and the retired 13-question version at `/classic/`.
+
 ## Test
 
 ```sh
