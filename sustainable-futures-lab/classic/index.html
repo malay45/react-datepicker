@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sustainable Futures Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◐</span>
+        Sustainable Futures Lab <span class="tag">Practice POC</span>
+      </div>
+      <div class="status" id="status" hidden>
+        <span id="progress"></span>
+        <span class="timer" id="timer" role="timer" aria-live="off"></span>
+      </div>
+    </header>
+    <div class="progressbar" aria-hidden="true"><div id="progressfill"></div></div>
+    <main id="app" class="container" tabindex="-1"></main>
+
+    <script src="scenario.js"></script>
+    <script src="engine.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
